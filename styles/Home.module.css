@@ -1,0 +1,115 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aquamarine;
+}
+
+.body {
+  height: 812px;
+  width: 375px;
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.topLogo {
+  height: 50px;
+  width: 50px;
+  background-image: url(../public/Logo.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  background-position: center;
+  position: absolute;
+  top: 2%;
+  left: 5%;
+}
+
+.searchSection {
+  background-image: url(../public/BackgroundImage.png);
+  background-repeat: no-repeat;
+  background-size: 184px 164px;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 4 4;
+  max-height: 325px;
+}
+
+.displaySection {
+  background-color: #24282f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 6 6;
+  max-height: 487px;
+}
+
+.title {
+  margin: 10% 0 0 0;
+  line-height: 1.15;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto",
+    "Helvetica", "Arial", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
+.title {
+  text-align: center;
+}
+
+.card {
+  background-color: azure;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  height: 400px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardBody {
+  padding: 2px 16px;
+}
+
+.charactersList {
+  height: 200px;
+  width: 80%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.characterBody {
+  /* background-color: #24282f; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30%;
+}
+
+.characterDetails{
+  margin-top: 10%;
+}
+
+.backButton{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 2%;
+  left: 5%;
+}
